@@ -12,23 +12,38 @@ Throughout this course, Jupyter notebook(s) will be provided as a means to suppo
 We support two ways of using (Jupyter) notebooks:
 
 1. <u>Download and run the notebooks locally</u>. Download the files locally, and then run them either through the web browser or VS Code. (Note that integrations with other IDEs exist, but we will not support them officially).
-2. <u>Using Google Colab</u>.: **todo**
+2. <u>Using Google Colab</u>.: 
 
 Note that the first option will usually result in a smoother experience, especially with interactive plots.
 
 ## [Option 1] Local Installation Guide 
 
-### Downloading the notebooks
-The first step is to locally download the files within this repository. There are two options:
+To get started with the course materials, you'll need to download the notebooks to your local machine. Follow one of these two methods:
 
-1. Using git: *maybe remove?*
-   1. Ensure that git (version **>2.39?**) is installed by entering `git -v` in the terminal. If not installed, see [Git's official website](https://git-scm.com/downloads) for installation instructions. 
-   2. Using the terminal, navigate to the desired directory and clone the repository: ``git clone <<https://address.git>>``
-2. Manual download: 
-   1. On this page above, click the green `code` button, and then use `Download ZIP`.
-   2. Extract the ZIP file to your desired directory.  
- 
-**NOTE**: Take note of where the files are downloaded. `git clone` will download the files into the current directory. 
+### Option A: Download the Repository as a ZIP File
+
+1. Navigate to the course page on Moodle.
+2. Locate and download the weekly ZIP file containing the notebook.
+3. Choose a suitable directory on your computer for the course materials.
+4. Extract the contents of the ZIP file into this directory.
+
+### Option B: Clone the Repository
+
+If you're familiar with Git and GitHub, you can clone the repository:
+
+1. Click on the link to the notebooks repository on GitHub through the course page on Moodle.
+2. Click the green `Code` button near the top of the page.
+3. In the dropdown menu, click `Download ZIP`.
+4. Once downloaded, extract the ZIP file to your chosen directory.
+
+Alternatively, if you prefer using the command line:
+
+```bash
+git clone https://github.com/your-course-repository.git
+cd your-course-repository
+```
+
+Replace `https://github.com/your-course-repository.git` with the actual URL of your course repository.
 
 ### Setting up the environment
 
@@ -38,7 +53,7 @@ The first step is to locally download the files within this repository. There ar
 
 1. Install Python (version > **3.9?**) by downloading it from the [official Python website](https://www.python.org/downloads/), or using a package manager (e.g., `apt` for Ubuntu, `brew` for macOS).
 2. Open a terminal and navigate to the project directory:
-   1. [Terminal navigation tutoral](https://frontend.turing.edu/lessons/module-1/getting-around-in-the-terminal.html) provides a quick introduction to terminal navigation. 
+   1. [Terminal navigation tutorial](https://frontend.turing.edu/lessons/module-1/getting-around-in-the-terminal.html) provides a quick introduction to terminal navigation. 
 3. Create a virtual environment:
 
         python3 -m venv venv
