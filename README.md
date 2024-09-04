@@ -20,18 +20,16 @@ Note that the first option will usually result in a smoother experience, especia
 
 To get started with the course materials, you'll need to download the notebooks to your local machine. Follow one of these two methods:
 
-### Option A: Download the Repository as a ZIP File
+### Option A: Moodle
 
 1. Navigate to the course page on Moodle.
 2. Locate and download the weekly ZIP file containing the notebook.
 3. Choose a suitable directory on your computer for the course materials.
 4. Extract the contents of the ZIP file into this directory.
 
-### Option B: Clone the Repository
+### Option B: GitHub
 
-If you're familiar with Git and GitHub, you can clone the repository:
-
-1. Click on the link to the notebooks repository on GitHub through the course page on Moodle.
+1. Click on the link to the CS1-Notebooks repository on GitHub through the course page on Moodle.
 2. Click the green `Code` button near the top of the page.
 3. In the dropdown menu, click `Download ZIP`.
 4. Once downloaded, extract the ZIP file to your chosen directory.
@@ -39,11 +37,9 @@ If you're familiar with Git and GitHub, you can clone the repository:
 Alternatively, if you prefer using the command line:
 
 ```bash
-git clone https://github.com/your-course-repository.git
-cd your-course-repository
+git clone https://github.com/idsc-frazzoli/CS1-Notebooks.git
+cd CS1-Notebooks
 ```
-
-Replace `https://github.com/your-course-repository.git` with the actual URL of your course repository.
 
 ### Setting up the environment
 
