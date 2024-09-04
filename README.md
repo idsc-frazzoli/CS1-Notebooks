@@ -22,14 +22,14 @@ Note that the first option will usually result in a smoother experience, especia
 
 To get started with the course materials, you'll need to download the notebooks to your local machine. Follow one of these two methods:
 
-**1. Moodle**
+**A. Moodle**
 
 1. Navigate to the course page on Moodle.
 2. Locate and download the weekly ZIP file containing the notebook.
 3. Choose a suitable directory on your computer for the course materials.
 4. Extract the contents of the ZIP file into this directory.
 
-**2. GitHub**
+**B. GitHub**
 
 1. Click on the link to the CS1-Notebooks repository on GitHub through the course page on Moodle.
 2. Click the green `Code` button near the top of the page.
@@ -72,7 +72,7 @@ cd CS1-Notebooks
 
 To run the notebooks, you can choose between two options:
 
-**1. Using the Notebooks with a web-editor**
+**A. Using the Notebooks with a web-editor**
 Jupyter notebooks - this finds all notebooks within the current directory and trusts them. 
 
     find . -name '*.ipynb' -exec jupyter trust {} \;
@@ -81,7 +81,7 @@ The below runs the notebook.
 
     jupyter notebook
 
-**2. Using the notebooks with VSCode**
+**B. Using the notebooks with VSCode**
 Install VSCode (if not already present), then:
 1. Install the `Python` and `Jupyter` extensions for VSCode. 
 2. Choose the python interpreter. Press `Ctrl+Shift+P` and select `Python: Select Interpreter`. Select the `venv` interpreter.
