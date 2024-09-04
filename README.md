@@ -16,7 +16,7 @@ We support two ways of using (Jupyter) notebooks:
 
 Note that the first option will usually result in a smoother experience, especially with interactive plots.
 
-## Option 1: Local Installation Guide 
+## Option 1: Local Installation
 
 ### 1. Downloading the Notebooks
 
