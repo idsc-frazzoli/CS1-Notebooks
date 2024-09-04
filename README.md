@@ -11,8 +11,8 @@ Throughout this course, Jupyter notebook(s) will be provided as a means to suppo
 
 We support two ways of using (Jupyter) notebooks:
 
-1. <u>Download and run the notebooks locally</u>. Download the files locally, and then run them either through the web browser or VS Code. (Note that integrations with other IDEs exist, but we will not support them officially).
-2. <u>Using Google Colab</u>.: 
+1. <u>Downloading and runing the notebooks locally</u>. Download the files locally, and then run them either through the web browser or VS Code. (Note that integrations with other IDEs exist, but we will not support them officially).
+2. <u>Using Google Colab</u>. Click on the Colab notebook link on Moodle and create a ETH Google account if you have not done so.
 
 Note that the first option will usually result in a smoother experience, especially with interactive plots.
 
@@ -51,7 +51,7 @@ cd CS1-Notebooks
 
 1. Install Python (version > **3.9?**) by downloading it from the [official Python website](https://www.python.org/downloads/), or using a package manager (e.g., `apt` for Ubuntu, `brew` for macOS).
 2. Open a terminal and navigate to the project directory:
-   1. [Terminal navigation tutorial](https://frontend.turing.edu/lessons/module-1/getting-around-in-the-terminal.html) provides a quick introduction to terminal navigation. 
+   [Terminal navigation tutorial](https://frontend.turing.edu/lessons/module-1/getting-around-in-the-terminal.html) provides a quick introduction to terminal navigation. 
 3. Create a virtual environment:
 
         python3 -m venv venv
