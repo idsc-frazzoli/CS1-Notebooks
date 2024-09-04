@@ -5,29 +5,31 @@ This GitHub repository contains the Jupyter notebooks associated with the [Contr
 
 ## Getting Started with Notebooks
 
-Jupyter notebook is a web-based interactive computing platform. It provides a means to combine live code with narrative text and visualisations. 
+Jupyter notebook is a web-based interactive computing platform. It provides a means to combine live code with narrative text and visualizations. 
 
 Throughout this course, Jupyter notebook(s) will be provided as a means to support and reinforce the concepts introduced in the lectures. Namely, these can be thought of as an interactive alternative to lecture notes and theory sheets. 
 
 We support two ways of using (Jupyter) notebooks:
 
-1. <u>Download and run the notebooks locally</u>. Download the files locally, and then run them either through the web browser or VS Code. (Note that integrations with other IDEs exist, but we will not support them officially).
-2. <u>Using Google Colab</u>.: 
+1. <u>Downloading and runing the notebooks locally</u>. Download the files locally, and then run them either through the web browser or VS Code. (Note that integrations with other IDEs exist, but we will not support them officially).
+2. <u>Using Google Colab</u>. Click on the Colab notebook link on Moodle and create a ETH Google account if you have not done so.
 
 Note that the first option will usually result in a smoother experience, especially with interactive plots.
 
-## [Option 1] Local Installation Guide 
+## Option 1: Local Installation
+
+### 1. Downloading the Notebooks
 
 To get started with the course materials, you'll need to download the notebooks to your local machine. Follow one of these two methods:
 
-### Option A: Moodle
+**1. Moodle**
 
 1. Navigate to the course page on Moodle.
 2. Locate and download the weekly ZIP file containing the notebook.
 3. Choose a suitable directory on your computer for the course materials.
 4. Extract the contents of the ZIP file into this directory.
 
-### Option B: GitHub
+**2. GitHub**
 
 1. Click on the link to the CS1-Notebooks repository on GitHub through the course page on Moodle.
 2. Click the green `Code` button near the top of the page.
@@ -41,7 +43,7 @@ git clone https://github.com/idsc-frazzoli/CS1-Notebooks.git
 cd CS1-Notebooks
 ```
 
-### Setting up the environment
+### 2. Setting up the environment
 
 **Windows**
 
@@ -49,7 +51,7 @@ cd CS1-Notebooks
 
 1. Install Python (version > **3.9?**) by downloading it from the [official Python website](https://www.python.org/downloads/), or using a package manager (e.g., `apt` for Ubuntu, `brew` for macOS).
 2. Open a terminal and navigate to the project directory:
-   1. [Terminal navigation tutorial](https://frontend.turing.edu/lessons/module-1/getting-around-in-the-terminal.html) provides a quick introduction to terminal navigation. 
+   [Terminal navigation tutorial](https://frontend.turing.edu/lessons/module-1/getting-around-in-the-terminal.html) provides a quick introduction to terminal navigation. 
 3. Create a virtual environment:
 
         python3 -m venv venv
@@ -66,7 +68,11 @@ cd CS1-Notebooks
 
         python3 -m ipykernel install --user --name=venv
 
-## [Option a] Using the Notebooks with a web-editor
+### 3. Running the Notebooks
+
+To run the notebooks, you can choose between two options:
+
+**1. Using the Notebooks with a web-editor**
 Jupyter notebooks - this finds all notebooks within the current directory and trusts them. 
 
     find . -name '*.ipynb' -exec jupyter trust {} \;
@@ -74,7 +80,7 @@ Jupyter notebooks - this finds all notebooks within the current directory and tr
 The below runs the notebook. 
     jupyter notebook
 
-## [Option b] Using the notebooks with VSCode
+**2. Using the notebooks with VSCode**
 Install VSCode (if not already present), then:
 1. Install the `Python` and `Jupyter` extensions for VSCode. 
 2. Choose the python interpreter. Press `Ctrl+Shift+P` and select `Python: Select Interpreter`. Select the `venv` interpreter.
