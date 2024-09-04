@@ -1,4 +1,4 @@
-# CS1 - 2024 - Notebooks
+# CS1-Notebooks 2024
 
 This GitHub repository contains the Jupyter notebooks associated with the [Control Systems I]([url](https://idsc.ethz.ch/education/lectures/control-systems-i.html)) course - taught by [Prof. Emilio Frazzoli](https://idsc.ethz.ch/research-frazzoli/people/person-detail.MjI0MDM0.TGlzdC8yNjg5LDQ4ODg4MTE2Mw==.html) during the fall semester 2024.
 
@@ -11,7 +11,7 @@ Throughout this course, Jupyter notebook(s) will be provided as a means to suppo
 
 We support two ways of using (Jupyter) notebooks:
 
-1. <u>Downloading and runing the notebooks locally</u>. Download the files locally, and then run them either through the web browser or VS Code. (Note that integrations with other IDEs exist, but we will not support them officially).
+1. <u>Downloading and running the notebooks locally</u>. Download the files locally, and then run them either through the web browser or VS Code. (Note that integrations with other IDEs exist, but we will not support them officially).
 2. <u>Using Google Colab</u>. Click on the Colab notebook link on Moodle and create a ETH Google account if you have not done so.
 
 Note that the first option will usually result in a smoother experience, especially with interactive plots.
@@ -78,6 +78,7 @@ Jupyter notebooks - this finds all notebooks within the current directory and tr
     find . -name '*.ipynb' -exec jupyter trust {} \;
 
 The below runs the notebook. 
+
     jupyter notebook
 
 **2. Using the notebooks with VSCode**
