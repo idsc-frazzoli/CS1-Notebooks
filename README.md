@@ -1,4 +1,4 @@
-# CS1 - 2024 -Notebooks
+# CS1 - 2024 - Notebooks
 
 This GitHub repository contains the Jupyter notebooks associated with the [Control Systems I]([url](https://idsc.ethz.ch/education/lectures/control-systems-i.html)) course - taught by [Prof. Emilio Frazzoli](https://idsc.ethz.ch/research-frazzoli/people/person-detail.MjI0MDM0.TGlzdC8yNjg5LDQ4ODg4MTE2Mw==.html) during the fall semester 2024.
 
@@ -14,7 +14,7 @@ We support two ways of using (Jupyter) notebooks:
 1. <u>Download and run the notebooks locally</u>. Download the files locally, and then run them either through the web browser or VS Code. (Note that integrations with other IDEs exist, but we will not support them officially).
 2. <u>Using Google Colab</u>.: **todo**
 
-
+Note that the first option will usually result in a smoother experience, especially with interactive plots.
 
 ## [Option 1] Local Installation Guide 
 
@@ -73,3 +73,5 @@ Install VSCode (if not already present), then:
 
 ## Option 2: Google Colab
 
+Alternatively, if you prefer not to install any software, Google Colab offers a convenient (although not as smooth) way to execute the notebooks online. If you don't already have a Google account, you can create one using your ETH email by following [these instructions](https://unlimited.ethz.ch/display/itkb/Google+Workspace).
+You will then just have to click on the link on moodle of the notebook that you want to view.
