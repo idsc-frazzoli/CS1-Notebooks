@@ -1,4 +1,4 @@
-# CS1 - 2024 - Notebooks
+# CS1-Notebooks 2024
 
 This GitHub repository contains the Jupyter notebooks associated with the [Control Systems I]([url](https://idsc.ethz.ch/education/lectures/control-systems-i.html)) course - taught by [Prof. Emilio Frazzoli](https://idsc.ethz.ch/research-frazzoli/people/person-detail.MjI0MDM0.TGlzdC8yNjg5LDQ4ODg4MTE2Mw==.html) during the fall semester 2024.
 
@@ -11,7 +11,7 @@ Throughout this course, Jupyter notebook(s) will be provided as a means to suppo
 
 We support two ways of using (Jupyter) notebooks:
 
-1. <u>Downloading and runing the notebooks locally</u>. Download the files locally, and then run them either through the web browser or VS Code. (Note that integrations with other IDEs exist, but we will not support them officially).
+1. <u>Downloading and running the notebooks locally</u>. Download the files locally, and then run them either through the web browser or VS Code. (Note that integrations with other IDEs exist, but we will not support them officially).
 2. <u>Using Google Colab</u>. Click on the Colab notebook link on Moodle and create a ETH Google account if you have not done so.
 
 Note that the first option will usually result in a smoother experience, especially with interactive plots.
@@ -22,14 +22,14 @@ Note that the first option will usually result in a smoother experience, especia
 
 To get started with the course materials, you'll need to download the notebooks to your local machine. Follow one of these two methods:
 
-**1. Moodle**
+**A. Moodle**
 
 1. Navigate to the course page on Moodle.
 2. Locate and download the weekly ZIP file containing the notebook.
 3. Choose a suitable directory on your computer for the course materials.
 4. Extract the contents of the ZIP file into this directory.
 
-**2. GitHub**
+**B. GitHub**
 
 1. Click on the link to the CS1-Notebooks repository on GitHub through the course page on Moodle.
 2. Click the green `Code` button near the top of the page.
@@ -72,15 +72,16 @@ cd CS1-Notebooks
 
 To run the notebooks, you can choose between two options:
 
-**1. Using the Notebooks with a web-editor**
+**A. Using the Notebooks with a web-editor**
 Jupyter notebooks - this finds all notebooks within the current directory and trusts them. 
 
     find . -name '*.ipynb' -exec jupyter trust {} \;
 
 The below runs the notebook. 
+
     jupyter notebook
 
-**2. Using the notebooks with VSCode**
+**B. Using the notebooks with VSCode**
 Install VSCode (if not already present), then:
 1. Install the `Python` and `Jupyter` extensions for VSCode. 
 2. Choose the python interpreter. Press `Ctrl+Shift+P` and select `Python: Select Interpreter`. Select the `venv` interpreter.
