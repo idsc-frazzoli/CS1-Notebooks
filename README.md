@@ -61,9 +61,9 @@ cd CS1-Notebooks
 
         pip install jupyter
 
-**Linux and Mac OS**
+**Linux and MacOS**
 
-1. Install Python (version > **3.9?**) by downloading it from the [official Python website](https://www.python.org/downloads/), or using a package manager (e.g., `apt` for Ubuntu, `brew` for macOS).
+1. Install Python (version > **3.9**) by downloading it from the [official Python website](https://www.python.org/downloads/), or using a package manager (e.g., `apt` for Ubuntu, `brew` for macOS).
 2. Open a terminal and navigate to the project directory:
    [Terminal navigation tutorial](https://frontend.turing.edu/lessons/module-1/getting-around-in-the-terminal.html) provides a quick introduction to terminal navigation. 
 3. Create a virtual environment:
