@@ -61,7 +61,7 @@ cd CS1-Notebooks
 
         pip install jupyter
 
-**Linux and mac**
+**Linux and Mac OS**
 
 1. Install Python (version > **3.9?**) by downloading it from the [official Python website](https://www.python.org/downloads/), or using a package manager (e.g., `apt` for Ubuntu, `brew` for macOS).
 2. Open a terminal and navigate to the project directory:
