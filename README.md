@@ -47,6 +47,20 @@ cd CS1-Notebooks
 
 **Windows**
 
+1. Install Python from the [official Python website](https://www.python.org/downloads/). You need Python version 3.9 or higher.
+2. Open Command Prompt and navigate to the project directory.
+3. Create a virtual environment:
+
+        python -m venv venv
+
+4. Activate the virtual environment:
+
+        .\venv\Scripts\activate
+
+5. Install Jupyter:
+
+        pip install jupyter
+
 **Linux and mac**
 
 1. Install Python (version > **3.9?**) by downloading it from the [official Python website](https://www.python.org/downloads/), or using a package manager (e.g., `apt` for Ubuntu, `brew` for macOS).
