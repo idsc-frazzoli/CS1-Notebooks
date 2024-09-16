@@ -1,18 +1,18 @@
 # CS1-Notebooks 2024
 
-This GitHub repository contains the Jupyter notebooks associated with the [Control Systems I]([url](https://idsc.ethz.ch/education/lectures/control-systems-i.html)) course - taught by [Prof. Emilio Frazzoli](https://idsc.ethz.ch/research-frazzoli/people/person-detail.MjI0MDM0.TGlzdC8yNjg5LDQ4ODg4MTE2Mw==.html) during the fall semester 2024.
+This GitHub repository contains the Jupyter notebooks associated with the [Control Systems I](https://idsc.ethz.ch/education/lectures/control-systems-i.html) course - taught by [Prof. Emilio Frazzoli](https://idsc.ethz.ch/research-frazzoli/people/person-detail.MjI0MDM0.TGlzdC8yNjg5LDQ4ODg4MTE2Mw==.html) during the fall semester 2024.
 
 
 ## Getting Started with Notebooks
 
-Jupyter notebook is a web-based interactive computing platform. It provides a means to combine live code with narrative text and visualizations. 
+Jupyter notebook is a web-based interactive computing platform. It provides a means to combine live code with narrated text and visualisations. 
 
 Throughout this course, Jupyter notebook(s) will be provided as a means to support and reinforce the concepts introduced in the lectures. Namely, these can be thought of as an interactive alternative to lecture notes and theory sheets. 
 
 We support two ways of using (Jupyter) notebooks:
 
-1. <u>Downloading and running the notebooks locally</u>. Download the files locally, and then run them either through the web browser or VS Code. (Note that integrations with other IDEs exist, but we will not support them officially).
-2. <u>Using Google Colab</u>. Click on the Colab notebook link on Moodle and create a ETH Google account if you have not done so.
+1. <u>Downloading and running the notebooks locally</u>. Download the files locally, and then run them using a web browser or VS Code. (Note that integrations with other IDEs exist, but we will not support them officially).
+2. <u>Using Google Colab</u>. Click on the Colab notebook link on Moodle and run them directly for there.
 
 Note that the first option will usually result in a smoother experience, especially with interactive plots.
 
@@ -26,8 +26,8 @@ To get started with the course materials, you'll need to download the notebooks 
 
 1. Navigate to the course page on Moodle.
 2. Locate and download the weekly ZIP file containing the notebook.
-3. Choose a suitable directory on your computer for the course materials.
-4. Extract the contents of the ZIP file into this directory.
+3. Move the ZIP file to a suitable directory (location) on your computer for the notebooks.
+4. Unzip the file and continue with Step 2 - Setting up the environment. 
 
 **B. GitHub**
 
@@ -42,6 +42,8 @@ Alternatively, if you prefer using the command line:
 git clone https://github.com/idsc-frazzoli/CS1-Notebooks.git
 cd CS1-Notebooks
 ```
+
+**NOTE**: when using ``git clone``, the cloned repository will be placed within the current directory. 
 
 ### 2. Setting up the environment
 
@@ -106,4 +108,5 @@ Install VSCode (if not already present), then:
 ## Option 2: Google Colab
 
 Alternatively, if you prefer not to install any software, Google Colab offers a convenient (although not as smooth) way to execute the notebooks online. If you don't already have a Google account, you can create one using your ETH email by following [these instructions](https://unlimited.ethz.ch/display/itkb/Google+Workspace).
+
 You will then just have to click on the link on moodle of the notebook that you want to view.
