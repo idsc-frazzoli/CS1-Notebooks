@@ -103,7 +103,8 @@ Install VSCode (if not already present), then:
 2. Choose the python interpreter. Press `Ctrl+Shift+P` and select `Python: Select Interpreter`. Select the `venv` interpreter.
 3. Open a notebook file (`.ipynb`). 
 4. Choose jupyter kernel. Press `Ctrl+Shift+P` and select `Notebook: Select Notebook Kernel`.
-5. You should be able to run the cells from within VSCode. 
+5. Then select `Jupyter Kernel`, and select the kernel `venv` should be present. 
+6. You should be able to run the cells from within VSCode. 
 
 ## Option 2: Google Colab
 
