@@ -110,4 +110,4 @@ Install VSCode (if not already present), then:
 
 Alternatively, if you prefer not to install any software, Google Colab offers a convenient (although not as smooth) way to execute the notebooks online. If you don't already have a Google account, you can create one using your ETH email by following [these instructions](https://unlimited.ethz.ch/display/itkb/Google+Workspace).
 
-You will then just have to click on the link on moodle of the notebook that you want to view.
+The link to the individual notebooks can be found on moodle. Alternatively, follow this [link](https://drive.google.com/drive/folders/1mIAsynSwc7Qmkop7qdXTTwAHDFJzpqs2?usp=sharing) for the folder containing all the concurrent notebooks. 
