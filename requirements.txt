@@ -2,4 +2,4 @@ jupyter >= 1.0.0    # for jupyter notebook
 matplotlib >= 3.9.2 
 plotly >= 5.23.0    # for interactive plots
 pandas >= 2.2.2     # for data manipulation
-
+control >= 0.10.1   # for control systems
