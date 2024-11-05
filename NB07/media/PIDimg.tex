@@ -1,0 +1,48 @@
+\documentclass{standalone}
+
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows}
+% \usetikzlibrary{external}
+% \tikzexternalize[mode=list and make]
+
+% \tikzset{
+%     png export/.style={
+%         % First we call ImageMagick; change settings to requirements
+%         external/system call/.add={}{; magick convert -density 300 -transparent white "\image.pdf" "\image.png"},
+%         % Now we force the PNG figure to be used instead of the PDF
+%         /pgf/images/external info,
+%         /pgf/images/include external/.code={
+%             \includegraphics[width=\pgfexternalwidth,height=\pgfexternalheight]{##1.png}
+%         },
+%     }
+% }
+
+\begin{document}
+% \tikzset{png export}
+
+\tikzstyle{block} = [draw, fill=white, rectangle, 
+    minimum height=3em, minimum width=6em]
+\tikzstyle{sum} = [draw, fill=white, circle, node distance=1cm]
+\tikzstyle{input} = [coordinate]
+\tikzstyle{output} = [coordinate]
+\tikzstyle{pinstyle} = [pin edge={to-,thin,black}]
+
+\begin{tikzpicture}[auto, node distance=2cm,>=latex']
+
+    \node [input, name=input] {};
+    \node [sum, right of=input] (sum) {};
+    \node [block, right of=sum] (controller) {$C(s)$};
+    \node [block, right of=controller, node distance=3cm] (system) {$P(s)$};
+
+    \draw [->] (controller) -- node[name=u] {$u$} (system);
+    \node [output, right of=system] (output) {};
+    \node [block, below of=u] (measurements) {$K$};
+
+    % \draw [draw,->] (input) -- node {$r$} (sum);
+    \draw [->] (sum) -- node {} (controller);
+    \draw [->] (system) -- node [name=y] {$y$}(output);
+    \draw [->] (y) |- (measurements);
+    \draw [->] (measurements) -| node[pos=0.99] {$-$} 
+        node [near end] {$y_m$} (sum);
+\end{tikzpicture}
+\end{document}
