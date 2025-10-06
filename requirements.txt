@@ -4,3 +4,6 @@ plotly >= 5.23.0    # for interactive plots
 pandas >= 2.2.2     # for data manipulation
 control >= 0.10.1   # for control systems
 sympy
+ipywidgets
+numpy
+scipy
