@@ -112,7 +112,7 @@ Alternatively, if you prefer not to install any software, MyBinder offers a conv
 
 | Tool name | MyBinder link |
 |------------|---------------|
-| **LTI Matrix and ODE** | [![Binder]([https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/your-username/your-repo/branch?labpath=time_response_tool%2FODE_LTI.ipynb](https://mybinder.org/v2/gh/idsc-frazzoli/CS1-Notebooks.git/HEAD?urlpath=%2Fdoc%2Ftree%2Ftime_response_tool%2FMenu_Tool.ipynb)) |
+| **LTI Matrix and ODE** | [![Binder]([https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/idsc-frazzoli/CS1-Notebooks.git/HEAD?urlpath=%2Fdoc%2Ftree%2Ftime_response_tool%2FMenu_Tool.ipynb) |
 | **Root Locus** | Coming soon |
 | **Bode plot** | Coming soon |
 | **Nyquist plot** | Coming soon |
