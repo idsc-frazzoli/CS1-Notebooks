@@ -1,6 +1,6 @@
-# CS1-Notebooks 2024
+# CS1-Notebooks 2025
 
-This GitHub repository contains the Jupyter notebooks associated with the [Control Systems I](https://idsc.ethz.ch/education/lectures/control-systems-i.html) course - taught by [Prof. Emilio Frazzoli](https://idsc.ethz.ch/research-frazzoli/people/person-detail.MjI0MDM0.TGlzdC8yNjg5LDQ4ODg4MTE2Mw==.html) during the fall semester 2024.
+This GitHub repository contains the Jupyter notebooks associated with the [Control Systems I](https://idsc.ethz.ch/education/lectures/control-systems-i.html) course - taught by [Prof. Emilio Frazzoli](https://idsc.ethz.ch/research-frazzoli/people/person-detail.MjI0MDM0.TGlzdC8yNjg5LDQ4ODg4MTE2Mw==.html) during the fall semester 2025.
 
 
 ## Getting Started with Notebooks
@@ -12,7 +12,7 @@ Throughout this course, Jupyter notebook(s) will be provided as a means to suppo
 We support two ways of using (Jupyter) notebooks:
 
 1. <u>Downloading and running the notebooks locally</u>. Download the files locally, and then run them using a web browser or VS Code. (Note that integrations with other IDEs exist, but we will not support them officially).
-2. <u>Using Google Colab</u>. Click on the Colab notebook link on Moodle and run them directly for there.
+2. <u>Using MyBinder</u>. Click on the link in Moodle and run them directly for there.
 
 Note that the first option will usually result in a smoother experience, especially with interactive plots.
 
@@ -108,6 +108,11 @@ Install VSCode (if not already present), then:
 
 ## Option 2: Google Colab
 
-Alternatively, if you prefer not to install any software, Google Colab offers a convenient (although not as smooth) way to execute the notebooks online. If you don't already have a Google account, you can create one using your ETH email by following [these instructions](https://unlimited.ethz.ch/display/itkb/Google+Workspace).
+Alternatively, if you prefer not to install any software, MyBinder offers a convenient alternative. Simply click on the respective link, wait for the page to load, and then you will be able to run the code.
 
-The link to the individual notebooks can be found on moodle. Alternatively, follow this [link](https://drive.google.com/drive/folders/1mIAsynSwc7Qmkop7qdXTTwAHDFJzpqs2?usp=sharing) for the folder containing all the concurrent notebooks. 
+| Tool name | MyBinder link |
+|------------|---------------|
+| **LTI Matrix and ODE** | [![Binder]([https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/your-username/your-repo/branch?labpath=time_response_tool%2FODE_LTI.ipynb](https://mybinder.org/v2/gh/idsc-frazzoli/CS1-Notebooks.git/HEAD?urlpath=%2Fdoc%2Ftree%2Ftime_response_tool%2FMenu_Tool.ipynb)) |
+| **Root Locus** | Coming soon |
+| **Bode plot** | Coming soon |
+| **Nyquist plot** | Coming soon |
